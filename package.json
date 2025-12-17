@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-  "start": "serve dist",
-  "build": "vite build"
-},
+    "preview": "vite preview --port 10000",
+    "build": "vite build"
+  },
   "dependencies": {
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
